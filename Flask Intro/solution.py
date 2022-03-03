@@ -43,8 +43,12 @@ def json_payload():
             out["plex_" + d] = data[d]
     return out
 
-@app.route('reflect/plex/form')
+@app.route('/reflect/plex/form')
 def form_payload():
     data = request.form
+    out = {}
+    for d in data:
+        out["plex_" + d] = "plex_" + data[d]
+    return out
 
 app.run(host='0.0.0.0', port=81, debug=True)
