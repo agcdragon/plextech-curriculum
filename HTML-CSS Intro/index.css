@@ -46,3 +46,94 @@ p {
 }
 
 /* TODO: Add CSS for the rest of your solution below */
+
+.empty32 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+}
+.empty31 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.red80 {
+  width: 80px;
+  background-color: red;
+}
+
+.blue80 {
+  width: 80px;
+  background-color: blue;
+}
+
+.empty4 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+  background-color: red;
+}
+
+.empty5 {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.redSquare {
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  gap: 10px;
+}
+
+.empty6 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+  justify-content: center;
+  background-color: red;
+}
+
+.empty7 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.blueBelt {
+  flex: 1;
+  background-color: blue;
+  width: 100%;
+}
+
+.transparentBelt {
+  flex: 1;
+  background-color: transparent;
+  width: 100%;
+}
+
+.empty8 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.orange80 {
+  width: 80px;
+  background-color: orange;
+}
+
+.empty9 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.orange9 {
+  width: 20%;
+  background-color: orange;
+}
